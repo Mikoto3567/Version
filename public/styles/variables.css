@@ -1,0 +1,18 @@
+@layer {
+  :root {
+    --encore-body-font-stack: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr,
+      CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva,
+      var(--fallback-fonts, sans-serif);
+    --encore-title-font-stack: SpotifyMixUITitle, CircularSp-Arab,
+      CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva,
+      var(--fallback-fonts, sans-serif);
+    --encore-variable-font-stack: SpotifyMixUITitleVariable, CircularSp-Arab,
+      CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva,
+      var(--fallback-fonts, sans-serif);
+
+    --background: oklch(0 0 0);
+    --foreground: oklch(100% 0.00011 271.152);
+
+    --sidebar: oklch(0.1822 0 0);
+  }
+}

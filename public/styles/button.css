@@ -1,0 +1,38 @@
+button {
+  font-size: 0.875rem;
+  cursor: pointer;
+  height: min-content;
+  line-height: 1.71428571429;
+  outline: 0;
+  border: none;
+}
+.search button {
+  padding: 0.25rem 1rem;
+  margin-block: auto;
+}
+
+.btn-secondary {
+  background-color: var(--foreground);
+  color: var(--background);
+  font-weight: 700;
+  border-radius: 9999px;
+}
+
+.btn-home {
+  background-color: var(--foreground);
+  border-radius: 9999px;
+  color: var(--background);
+  font-weight: 700;
+}
+.icon-btn {
+  aspect-ratio: 1/1;
+  padding-block: 0.25rem;
+  padding-inline: 0.5rem;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: var(--foreground);
+}
+
+.my-button:hover {
+}
