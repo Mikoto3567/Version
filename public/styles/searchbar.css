@@ -4,6 +4,8 @@
   height: 48px;
   padding: 10px;
   font-size: 16px;
-  border-radius: 50px;
+  border-radius: 100px;
   grid-column-start: 2;
+  position: relative;
+  left: 115px;
 }
