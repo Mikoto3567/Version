@@ -15,5 +15,8 @@
 
     --sidebar: oklch(0.1822 0 0);
     --input-background: oklch(0 0 0);
+    --panel-gap: 8px
+    --zool-level: 100
+    
   }
 }

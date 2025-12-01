@@ -21,6 +21,7 @@ body {
   grid-template-rows: 4.5rem 1fr 4.5rem;
   gap: 0.5rem;
   width: 100%;
+  height: 100%;
 }
 .row {
   display: grid;
@@ -77,4 +78,47 @@ footer {
   padding: 10px;
   border: none;
   border-radius: 6px;
+}
+
+.song-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #850001, #850001, #850001, #4f0907);
+}
+.song-title {
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+.track-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.track-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+.title {
+  font-weight: bold;
+}
+.controls {
+  position: relative;
+  right: 100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.progress {
+  width: 400px;
 }

@@ -5,6 +5,10 @@ button {
   line-height: 1.71428571429;
   outline: 0;
   border: none;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
 }
 .search button {
   padding: 0.25rem 1rem;
@@ -50,15 +54,29 @@ button {
   color: var(--foreground);
 }
 .button-download-app {
+  width: 130px;
   border-radius: 9999px;
   position: relative;
   left: 590px;
   background-color: transparent;
-  color: white;
+  color: #b3b3b3;
+  & svg {
+    fill: #b3b3b3;
+    position: fixed;
+    right: 220px;
+  }
 }
 .Whatsnew {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-content: center;
   border-radius: 50%;
   position: relative;
-  left: 590px;
-  background: grey;
+  left: 560px;
+  top: 4px;
+  & svg {
+    fill: #b3b3b3;
+  }
 }
